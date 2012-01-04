@@ -69,8 +69,6 @@ Science
 
 Computer Science
 ----------------
-> Seen from this perspective, the technology for coping with large-scale computer systems merges with the technology for building new computer languages, and computer science itself becomes no more (and no less) than the discipline of constructing appropriate descriptive languages.    
-> — [Abelson](http://en.wikipedia.org/wiki/Hal_Abelson) and [Sussman](http://en.wikipedia.org/wiki/Gerald_Jay_Sussman) (_[Structure and Interpretation of Computer Programs](http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-25.html#%_chap_4)_)
 
 > The purpose of computation is insight, not numbers.   
 > — [Richard Hamming](http://en.wikipedia.org/wiki/Richard_Hamming)

@@ -62,6 +62,4 @@ Contacting Twitter...
 +-- {.section}
 [Reading](http://librarything.com/home/mdreid)
 ==============================================
-
-<script type="text/javascript" src="http://www.librarything.com/jswidget.php?reporton=mdreid&show=recent&header=&num=8&covers=small&text=title&tag=show&css=0&style=2&version=1"> </script>
 =--

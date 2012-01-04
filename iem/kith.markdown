@@ -57,5 +57,3 @@ Bookmarks
 I collect machine learning (and other) bookmarks using the service 
 [delicious](http://delicious.com/mreid). Here are the latest ones that I have
 tagged '[machinelearning](http://delicious.com/mreid/machinelearning)'.
-
-<script type="text/javascript" src="http://feeds.delicious.com/v2/js/mreid/machinelearning?title=Bookmarks&count=5&sort=date&extended"></script>
