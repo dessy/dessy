@@ -10,56 +10,17 @@ section: Home
 Welcome
 =======
 
-I'm Mark Reid, a 30-something Australian, academic, husband, programmer, father, 
-snowboarder, and web-nerd---amongst other things. You can find out more about 
-be by poking around the links above and below.
-
-+--	{.section}
-Research
-========
-My day job is as a [Research Fellow](/work) in statistical machine learning at 
-the Australian National University's Research School of Information Sciences and
-Engineering.
-=--
+I'm Dessy, a software developer from Toronto. 
 
 +-- {.section}
-Blogs
+Blog
 =====
-I keep a research blog called _[Inductio ex Machina](/iem)_ on 
-machine learning and statistics.
-Recent posts include:
-{% for post in site.categories.iem limit:3 %}
-<ul class="compact recent">
-<li>
-	<a href="{{ post.url }}" title="{{ post.excerpt }}">{{ post.title }}</a>
-	<span class="date">{{ post.date | date_to_string }}</span> 
-</li>
-</ul>
-{% endfor %}
+ _[Blog Link](/iem)_
 =--
-
-+--{.section}
-I have also just started a programming blog called _[Structure & Process](/sap)_.
-{% for sappost in site.categories.sap limit:3 %}
-<ul class="compact recent">
-<li>
-	<a href="{{ sappost.url }}" title="{{ sappost.excerpt }}">{{ sappost.title }}</a>
-	<span class="date">{{ sappost.date | date_to_string }}</span> 
-</li>
-</ul>
-{% endfor %}
-=--
-
 +-- {.section}
-[Twitter](http://twitter.com/mdreid)
+[Twitter](http://twitter.com/dess_e)
 ====================================
 
 Contacting Twitter... 
 {:#twitter_update_list }
-
-=--
-
-+-- {.section}
-[Reading](http://librarything.com/home/mdreid)
-==============================================
 =--
