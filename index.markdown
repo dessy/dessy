@@ -17,11 +17,6 @@ When I'm not busy coding, you can find me at local
 Toronto tech events. I'm a vegetarian, and I love to cook.
 
 +-- {.section}
-Blog
-=====
- _[Blog Link](/blog)_
-=--
-+-- {.section}
 [Twitter](http://twitter.com/dess_e)
 ====================================
 
