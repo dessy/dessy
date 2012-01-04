@@ -11,9 +11,9 @@ wordpress_id: 171
 I started using the social, "micro-blogging" service [Twitter][] in February this year simply because I had been seeing so much commentary about it — both good and bad. Since then, I've posted [800+ updates][me], amassed over 100 [followers][] and [follow][] nearly that many myself.
 
 [twitter]: http://twitter.com/
-[me]: http://twitter.com/mdreid/
-[follow]: http://twitter.com/mdreid/friends
-[followers]: http://twitter.com/mdreid/followers
+[me]: http://twitter.com/dess_e/
+[follow]: http://twitter.com/dess_e/friends
+[followers]: http://twitter.com/dess_e/followers
 
 What has surprised me about Twitter is how many people I have found on there who are active, or at least interested, in machine learning and statistics. The day-to-day discussions, questions, advice and pointers I've got via Twitter have been illuminating and fun.
 
