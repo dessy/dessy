@@ -5,12 +5,16 @@ title: Home
 section: Home
 ---
 
-<img class='inset right' src='/images/mark_reid.jpg' title='Mark Reid' alt='Photo of Mark Reid drinking a coffee' width='120px' />
+<img class='inset right' src='/images/dessy.png' title='Dessy' alt='Dessy Summer 2011' width='120px' />
 
-Welcome
+Hi, I'm Dessy.
 =======
-
-I'm Dessy, a software developer from Toronto. 
+ 
+I'm a software developer in Toronto. 
+[This](http://www.theworkinggroup.ca/) is where I work. I studied engineering at Queen’s, 
+and fell in love with software development shortly after. 
+When I'm not busy coding, you can find me at local 
+Toronto tech events. I'm a vegetarian, and I love to cook.
 
 +-- {.section}
 Blog
