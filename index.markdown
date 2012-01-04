@@ -19,7 +19,7 @@ Toronto tech events. I'm a vegetarian, and I love to cook.
 +-- {.section}
 Blog
 =====
- _[Blog Link](/iem)_
+ _[Blog Link](/blog)_
 =--
 +-- {.section}
 [Twitter](http://twitter.com/dess_e)

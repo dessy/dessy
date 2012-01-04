@@ -249,10 +249,9 @@ ul.compact li a {
 .twitter-title a { display: inline; }
 /* @end */
 
-body#Work #header a.work, 
 body#Home #header a.home, 
 body#Play #header a.play,
-body#Code #header a.code,
+body#Blog #header a.blog,
 body#Past #header a.past,
 body#Kith #header a.kith
 { 
