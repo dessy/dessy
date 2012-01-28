@@ -1,13 +1,8 @@
 ---
-title: First Post
+layout: name
 
-excerpt: This is the excerpt first first first
-
-location: Toronto, Ontario
-
-layout: iem-post
-
+title: Page Not Found!
 ---
+<h1>Sorry! Something went wrong.</h1>
 
-This is a test post with a link to my [Twitter](https://twitter.com/#!/dess_e)
-> Indented text
+<p>Not much you can do, so no use crying over spilt milk.</p>

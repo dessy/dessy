@@ -5,7 +5,7 @@ excerpt: This is the excerpt second second second
 
 location: Toronto, Ontario
 
-layout: iem-post
+layout: blog-post
 
 ---
 
