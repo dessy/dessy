@@ -10,8 +10,7 @@ keywords: Machine Learning, Statistics, Blog, Research, Academia
 Archives
 ========
 
-This is the complete archive of posts from _[inductio ex machina](/iem)_
-in reverse chronological order.
+This is the full list of all blog posts.
 
 {% for post in site.categories.blog %}
 <div class="section list">
