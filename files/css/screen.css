@@ -1,8 +1,8 @@
-/* @override http://mark.reid.dev/files/css/screen.css */
+/* @override http://dessydaskalov.dev/files/css/screen.css */
 
 /* @override 
-	http://mark.reid.dev/files/css/screen.css
-	http://mark.reid.name/files/css/screen.css
+	http://dessydaskalov.dev/files/css/screen.css
+	http://dessydaskalov.name/files/css/screen.css
 */
 
 /* screen.css
@@ -85,16 +85,6 @@ sup { line-height: 1ex; }
 }
 
 #disqus_thread { padding-top: 0; }
-
-/* TODO
-#page { counter-reset: section; }
-#page h2:before {
-	margin-left: -3.5ex;
-	color: silver;
-	content: "§" counter(section) ". ";
-	counter-increment: section 2;
-}
-*/
 
 /* @group FancyFirst */
 .emphnext + p:first-letter, p.emphfirst:first-letter {
@@ -280,6 +270,9 @@ body#Kith #header a.kith
 	margin-top: 1.43em;
 	margin-left: 7.5em;
 	padding-right: 3em;
+}
+.twitter {
+  padding: 20px 0 30px 0;
 }
 .section h1 {
 	font-family: Palatino, georgia, serif;

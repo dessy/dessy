@@ -16,7 +16,7 @@ and fell in love with software development shortly after.
 When I'm not busy coding, you can find me at local 
 Toronto tech events. I'm a vegetarian, and I love to cook.
 
-+-- {.section}
++-- {.section .twitter}
 [Twitter](http://twitter.com/dess_e)
 ====================================
 
