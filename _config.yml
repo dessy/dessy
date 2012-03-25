@@ -5,6 +5,6 @@ lsi         : false
 pygments    : true
 permalink   : /:year/:month/:day/:title/
 markdown    : maruku
-
+future      : true
 maruku:
     use_divs: true
