@@ -12,15 +12,33 @@ Hi, I'm Dessy.
  
 I'm a software developer in Toronto, and the CTO and co-founder of 
 <a href="http://greengagemobile.com" target="_blank">Greengage</a>. 
-I studied engineering at Queen’s, 
-and fell in love with software development shortly after. 
-When I'm not busy coding, you can find me at local 
-Toronto tech events. I'm a vegetarian, and I love to cook.
+I spend most of my time building Greengage and dreaming up big ideas 
+for the future with the team.
+
+I'm also a developer advocate at 
+<a href="http://www.theworkinggroup.ca/" target="_blank">The Working Group</a>, 
+an awesome web and mobile development shop in Toronto. 
+
+If you're a developer, and you love pizza, beer, nerds, and learning, 
+you should come out to one of the 
+<a href="https://twitter.com/#!/nerdlearn" target="_blank">#nerdlearn</a>
+panels I host at The Working Group. 
+We choose a different topic each time, and find three or four inspiring developers 
+in the community to discuss it. Sometimes we hold demo days instead, to keep things fresh.
+Our past events have included:
+
+<a href="http://blog.twg.ca/2012/01/nerdlearn-the-future-of-javascript/" target="_blank">The Future of JavaScript</a>
+<br />
+<a href="http://guestlistapp.com/events/77970" target="_blank">Demo Day</a>
+<br />
+<a href="http://blog.twg.ca/2011/08/nerdlearn-2-0-the-future-of-mobile-dev/" target="_blank">The Future of Mobile Dev</a>
+<br />
+<a href="http://blog.twg.ca/2011/05/nerdlearn-summary/" target="_blank">The Future of Rails</a>
 
 +-- {.section .twitter}
-[Twitter](http://twitter.com/dess_e)
-====================================
+<h1 id="twitter">
+  <a href="http://twitter.com/dess_e" target="_blank">Twitter</a>
+</h1>
 
-Contacting Twitter... 
-{:#twitter_update_list }
+<div class="tweet"></div>
 =--
