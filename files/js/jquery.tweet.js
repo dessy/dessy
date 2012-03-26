@@ -6,6 +6,7 @@
   else
     factory(jQuery);
 }(function ($) {
+  console.log('one');
   $.fn.tweet = function(o){
     var s = $.extend({
       username: null,                           // [string or array] required unless using the 'query' option; one or more twitter screen names (use 'list' option for multiple names, where possible)
