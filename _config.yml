@@ -1,10 +1,10 @@
 ---
-destination : /Users/dess-e/rails/dessy
+destination : ./_site
 auto        : false
 lsi         : false
 pygments    : true
 permalink   : /:year/:month/:day/:title/
 markdown    : maruku
-future      : true
+
 maruku:
     use_divs: true
