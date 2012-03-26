@@ -34,8 +34,8 @@ img { -ms-interpolation-mode:bicubic; }
 html>body { font-size:16px; }
 p { margin: 0 0 1.5em 0; text-align: justify; }
 
-a { text-decoration: none; color: #0C717A; }
-a:hover { text-decoration: underline; color: #0C717A; }
+a { text-decoration: none; color: #FC6D25; }
+a:hover { text-decoration: underline; color: #FC6D25; }
 a.pdf:before { 
 	margin-right: 1em;
 	content: url(/files/css/icon_pdf.gif); }
@@ -186,7 +186,7 @@ ul.compact li a {
 /* @group Header */
 #header, #header a { color: silver; }
 #header .hover { color: transparent; }
-#header:hover a { color: black; text-shadow: #aaa 2px 2px 3px;}
+#header:hover a { color: #FC6D25; text-shadow: #aaa 2px 2px 3px;}
 #header:hover a:hover { text-decoration: none; }
 #header a:hover .hover { color: silver; }
 #header {
@@ -519,7 +519,7 @@ h1#twitter{
 }
 
 .tweet_list li a {
-  color: #0C717A;
+  color: #FC6D25;
 }
 
 .tweet_list .tweet_avatar {
