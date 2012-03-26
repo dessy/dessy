@@ -36,9 +36,9 @@ Our past events have included:
 <a href="http://blog.twg.ca/2011/05/nerdlearn-summary/" target="_blank">The Future of Rails</a>
 
 +-- {.section .twitter}
-[Twitter](http://twitter.com/dess_e)
-====================================
+<h1 id="twitter">
+  <a href="http://twitter.com/dess_e" target="_blank">Twitter</a>
+</h1>
 
-Contacting Twitter... 
-{:#twitter_update_list }
+<div class="tweet"></div>
 =--
