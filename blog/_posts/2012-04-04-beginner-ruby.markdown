@@ -24,8 +24,26 @@ I know that Ladies Learning Code has hit on something amazing when a roomful of 
 a feast are asking for more food. So, in response to this one and similar questions, here is list of 
 resources:
 
-> Slides 
-> <br />
-> Book 
-> <br />
-> Learn Ruby the hard way (with credit to Oleg for suggesting)
+<ul>
+  <li>
+    Parts of the workshop, in particular the very beginning, were inspired by the book 
+    <a href="http://pine.fm/LearnToProgram/" target="_blank">Learn to Program</a> by Chris Pine. 
+    I highly recommend this book for complete beginners to programming. It walks you through many of 
+    the foundational concepts, and explains everything very clearly. 
+  </li>
+  <br />
+  <li>
+    Another great resource, which also assumes absolutely no prior programming experience, is 
+    <a href="http://ruby.learncodethehardway.org/" target="_blank">Learn Ruby The Hard Way</a>. 
+    You can get the PDF for $2.99, or read the HTML version for free. In the spirit of giving back to 
+    the community, I would encourage you to purchase a copy of the book rather than relying solely on the  
+    free version. (Thanks to <a href="http://twitter.com/#!/GroceryBagHead" target="_blank">Oleg</a> for suggesting this resource.)
+  </li>
+  <br />
+  <li>
+    You can see a copy of the slides I prepared for the workshop <a href="/ladies-learning-ruby" target="_blank">here</a>. 
+    They're also up on <a href="https://github.com/dessy/ladieslearningcode-ruby" target="_blank">github</a>, along with the 
+    puzzles, assignments, and worksheets used.
+  </li>
+</ul>
+
