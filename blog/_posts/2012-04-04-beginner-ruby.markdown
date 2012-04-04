@@ -54,4 +54,4 @@ resources:
 </ul>
 
 If you've plowed through this list and are looking for more, then you're amazing! Get in touch with me and 
-I'll absolutely dig up more for you, and I'll append it to this post.
+I'll absolutely dig up more for you, and append to this post.
