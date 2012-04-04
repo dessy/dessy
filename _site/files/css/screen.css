@@ -184,10 +184,10 @@ ul.compact li a {
 /* @end */
 
 /* @group Header */
+a:hover { text-decoration: none; }
 #header, #header a { color: silver; }
 #header .hover { color: transparent; }
 #header:hover a { color: #FC6D25; text-shadow: #aaa 2px 2px 3px;}
-#header:hover a:hover { text-decoration: none; }
 #header a:hover .hover { color: silver; }
 #header {
 	position: relative;
@@ -219,10 +219,6 @@ ul.compact li a {
 #header ul li a {
 	padding: 0.4em 0.3em 0 0.3em;
 	display: inline;
-}
-#header ul li a:hover {
-	color: blue;
-	border-bottom: 2px solid blue;
 }
 #header .byline {
 	color: silver;
