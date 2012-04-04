@@ -7,10 +7,10 @@ feed: atom.xml
 keywords: Blog, Programming, Software, Development
 ---
 
-Blog Description
+My Thoughts On ...
 ==========================================
 
-Lorem ipsum ...
+Software. Sustainability. Startups.
 
 Recent Posts
 ------------
