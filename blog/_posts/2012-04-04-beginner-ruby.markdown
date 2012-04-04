@@ -21,7 +21,7 @@ with Ruby as the vehicle to get the audience familiar with basic concepts.
 During the workshop, I had several questions along the lines of "Where do I go from here?". In a day 
 full of incredible highs, the peak of the mountain was when I was asked that very question. 
 I know that Ladies Learning Code has hit on something amazing when a roomful of people in the middle of 
-a feast are asking for more food. So, in response to this one and similar questions, here is list of 
+a feast are asking for more food. So, in response to this and other similar questions, I've compiled a list of 
 resources:
 
 <ul>
@@ -41,9 +41,17 @@ resources:
   </li>
   <br />
   <li>
-    You can see a copy of the slides I prepared for the workshop <a href="/ladies-learning-ruby" target="_blank">here</a>. 
+    If you're up for some humour alongside your dose of Ruby education, check out 
+    <a href="http://mislav.uniqpath.com/poignant-guide/" target="_blank">_why's (Poignant Guide) to Ruby</a>. 
+    It's super quirky, entertaining, and fun. 
+  </li>
+  <br />
+  <li>
+    You can view the slides I prepared for the workshop <a href="/ladies-learning-ruby" target="_blank">here</a>. 
     They're also up on <a href="https://github.com/dessy/ladieslearningcode-ruby" target="_blank">github</a>, along with the 
     puzzles, assignments, and worksheets used.
   </li>
 </ul>
 
+If you've plowed through this list and are looking for more, then you're amazing! Get in touch with me and 
+I'll absolutely dig up more for you, and I'll append it to this post.
