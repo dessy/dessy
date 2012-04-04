@@ -18,8 +18,7 @@ The workshop is geared toward complete beginners to software development, and as
 of anything programming-related. I think of it not as an intro to Ruby, but an intro to programming, 
 with Ruby as the vehicle to get the audience familiar with basic concepts.
 
-During the workshop, I had several questions along the lines of "Where do I go from here?". In a day 
-full of incredible highs, the peak of the mountain was when I was asked that very question. 
+During the workshop, I had several questions along the lines of "Where do I go from here?". 
 I know that Ladies Learning Code has hit on something amazing when a roomful of people in the middle of 
 a feast are asking for more food. So, in response to this and other similar questions, I've compiled a list of 
 resources:
