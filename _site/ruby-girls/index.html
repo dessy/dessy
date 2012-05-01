@@ -1,0 +1,1049 @@
+<!--
+  Google HTML5 slide template
+
+  Original slides by: 
+    Authors: Luke Mahé (code)
+             Marcin Wichary (code and design)
+           
+             Dominic Mazzoni (browser compatibility)
+             Charles Chen (ChromeVox support)
+
+    URL: http://code.google.com/p/html5slides/
+
+  Modifications by: Dessy Daskalov
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Girls Crack The Code</title>
+    <meta charset='utf-8'>
+    <script src='assets/default.js'></script>
+  </head>
+  
+  <body style='display: none'>
+    <section class='slides layout-regular template-default'>
+      <article>
+        <h1>
+          Learning to Program
+          <br>
+          with Ruby
+        </h1>
+        <p>
+          Dessy Daskalov
+          <br>
+          @dess_e
+        </p>
+      </article>
+      
+      <article id="what-is-ruby">
+        <style>
+          #what-is-ruby p { margin: 100px 0px; font-size: 40px; line-height: 50px; };
+        </style>
+        <h3>
+          What is Ruby?
+        </h3>
+        <p />
+        <div class="build">
+          <p class='large-font'>Ruby is a programming language.</p>
+          <p class='large-font'>Wait ... what's a programming language?</p>
+          <p class='large-font'>Let's backtrack a bit.</p>
+        </div>
+      </article>
+      
+      <article id='two-things'>
+        <style>
+          #two-things p { margin: 200px 0px; }
+        </style>
+        <p class='large-font'>There are two things you should know about your computer.</p>
+      </article>
+      
+      <article id='computer-wishes'>
+        <style>
+          #computer-wishes h3 { padding-bottom: 10px; }
+          #computer-wishes img { margin-left: 70px; }
+        </style>
+        <h3>
+          1. Your computer speaks a different language.
+        </h3>
+        <p>This is how your computer wishes you could speak to it:</p>
+        <p />
+        <img src="assets/images/machine-language.jpg" width="600" height="411" border="1">
+      </article>
+      
+      <article id='middle-ground'>
+        <h3>
+          This is where a programming language comes in.
+        </h3>
+        <style>
+          #middle-ground p { margin-top: 100px }
+        </style>
+        <p>A programming language is <b>easy for you to learn</b>, and <b>your computer also understands it</b>.</p>
+        <p>It's the <b>half-way point</b> between English and the language that your computer speaks.</p>
+      </article>
+      
+      <article id='stupid-computer'>
+        <style>
+          #stupid-computer p { margin: 100px 0px; }
+        </style>
+        <h3>
+          2. Your computer is not very smart.
+        </h3>
+        <p class='large-font'>Your computer can only do what you tell it to if you give it step-by-step instructions.</p>
+      </article>
+      
+      <article id='stupid-computer'>
+        <h3>People vs. Computers</h3>
+        <p class='large-font'>
+          Imaging you have to teach a friend to make a peanut butter sandwich.
+        </p>
+        <p class='large-font'>
+          What would you tell your friend?
+        </p>
+      </article>
+      
+      <article>
+        <h3>People vs. Computers</h3>
+        <p>1. Toast two slices of bread</p>
+        <p>2. Spread peanut butter on one slice of bread</p>
+        <p>3. Spread jam on the other slice of bread</p>
+        <p>4. Put the two pieces of bread together</p>
+        <p>5. Put the sandwich on a plate and serve it</p>
+      </article>
+      
+      <article>
+        <h3>People understand GENERAL instructions.</h3>
+        <p>
+          We left out some parts of the process, but a person could figure out:
+        </p>
+        <p>Where to find the ingredients</p>
+        <p>To use a butter knife to spread the peanut butter</p>
+        <p>To put the bread in a toaster in order to toast it</p>
+        <p>etc, etc, etc (there are many little steps)</p>
+      </article>
+      
+      <article id='computers-exact'>
+        <style>
+          #computers-exact p { margin: 150px 0px; }
+        </style>
+        <h3>Computers understand EXACT instructions.</h3>
+        <p class='large-font'>
+          This same recipe for a computer would be much, much longer.
+        </p>
+      </article>
+      
+      <article id='ruby-robot'>
+        <style>
+          #ruby-robot p { margin: 150px 0px; }
+          #ruby-robot td { border: none; }
+        </style>
+        <h3>
+          Meet Ruby Robot
+        </h3>
+        <table>
+          <tr>
+            <td>
+              <div class="build">
+                <p class='large-font'>Let's try teaching Ruby Robot to make a peanut butter sandwich.</p>
+              </div>
+            </td>
+            <td><img src="assets/images/robot.png"></td>
+          </tr>
+        </table>
+      </article>
+      
+      <article>
+        <h3>1. Toast two slices of bread</h3>
+        <p>What is bread?</p>
+        <p>Where is it found?</p>
+        <p>How do I open the bag?</p>
+        <p>What is a slice?</p>
+        <p>How do I slice the bread?</p>
+        <p>How do I "toast"?</p>
+        <p>What is a toaster?</p>
+        <p>How do I use a toaster?</p>
+        <p>etc, etc, etc</p>
+      </article>
+      
+      <article>
+        <h3>2. Spread peanut butter on one slice of bread</h3>
+        <p>What is peanut butter?</p>
+        <p>How do I "spread" peanut butter?</p>
+        <p>What is a butter knife?</p>
+        <p>Where is it found?</p>
+        <p>How do I open the knife drawer?</p>
+        <p>Which slice do I spread it on?</p>
+        <p>How much peanut butter do I spread?</p>
+        <p>etc, etc, etc</p>
+      </article>
+      
+      <article id='learned-programming'>
+        <style>
+          #learned-programming p { margin-top: 100px; }
+          #learned-programming b { font-size: 50px }
+        </style>
+        <h3>
+          You've learned what programming is!
+        </h3>
+        <p class='large-font'>Programming is writing out <b>step-by-step instructions</b> to speak to your computer.</p>
+      </article>
+      
+      <article id='irb-intro'>
+        <style>
+          #irb-intro .large-font { font-size: 35px; margin: 50px 0 50px 0; }
+        </style>
+        <h3>
+          Time to see Ruby Robot in action!
+        </h3>
+        <section class='build'>
+          <p class='large-font'>You can speak to your computer through Terminal.</p>
+          <p class='large-font'>From Terminal, we'll ask our computer for IRB.</p>
+          <p class='large-font'>IRB is like text messaging with Ruby Robot.</p>
+          <p class='large-font'>You'll ask Ruby Robot to do something, and it will respond.</p>
+        </section>
+      </article>
+      
+      <article id='ask-ruby'>
+        <style>
+          #ask-ruby .large-font { margin-top: 100px; }
+        </style>
+        <section class='build'>
+          <pre>irb</pre>
+          <pre>ruby-1.8.7 :001 > </pre>
+          <p class='large-font'>Let's ask Ruby Robot to do something.</p>
+        </section>
+      </article>
+      
+      <article>
+        <section class='build'>
+          <pre>> 1 + 1</pre>
+          <pre>=> 2</pre>
+          <pre>> 462 * 86</pre>
+          <pre>=> 39732</pre>
+          <p class='large-font'>Ruby can do math very quickly.</p>
+        </section>
+      </article>
+      
+      <article id='ruby-knows'>
+        <style>
+          #ruby-knows .large-font { margin-top: 60px; }
+        </style>
+        <section class='build'>
+          <pre>> 1 + 2 + 3<br>=> 6</pre>
+          <pre>> "Girls" + "Crack" + "The" + "Code"</pre>
+          <pre>=> "GirlsCrackTheCode"</pre>
+          <p class='large-font'>Ruby Robot knows the difference between a number and a word.</p>
+          <p class='large-font'>Try using some of your own words, like your name.</p>
+        </section>
+      </article>
+      
+      <article id='ruby-robot-world'>
+        <style>
+          #ruby-robot-world p { margin: 30px 0px; }
+          #ruby-robot-world td { border: none; }
+        </style>
+        <h3>
+          Ruby Robot Lives in a Different World
+        </h3>
+        <p class='large-font'>Just like in our world, there are many objects in Ruby Robot's world.</p>
+        <table>
+          <tr>
+            <td><p class='large-font'>Every object has a barcode.</p></td>
+            <td><img src="assets/images/barcode.gif"></td>
+          </tr>
+        </table>
+        <p class='large-font'>Ruby Robot scans the barcode to find out what type of object it is.</p>
+      </article>
+      
+      <article id='pick-up-object'>
+        <style>
+          #pick-up-object p { margin: 75px 0px; }
+        </style>
+        <h3>
+          Picking Up An Object
+        </h3>
+        <p class='large-font'>Imagine Ruby Robot picks up the object <b>"GirlsCrackTheCode"</b>.</p>
+        <p class='large-font'>Ruby Robot scans the barcode, and finds out that <b>"GirlsCrackTheCode"</b> is a word.</p>
+      </article>
+      
+      <article id='integer-string'>
+        <style>
+          #integer-string .ruby-class { margin: 100px 0px; }
+        </style>
+        <h3>
+          Numbers and Words, Integers and Strings
+        </h3>
+        <p>In Ruby Robot's world ...</p>
+        <p class='ruby-class'>Numbers are called <b>INTEGERS</b>. We just did some math with some integers.</p>
+        <p class='ruby-class'>Letters, words, and sentences are called <b>STRINGS</b>. A String always has quotes around it.</p>
+      </article>
+      
+      <article id='objects-objects'>
+        <style>
+          #objects-objects .large-font { margin: 150px 0px; }
+        </style>
+        <h3>
+          Objects, Objects, Everywhere!
+        </h3>
+        <p>You've already met Objects. That's a programming word!</p>
+        <div class='build'>
+          <p class='large-font'>How does Ruby Robot know what to do with an Object?</p>
+        </div>
+      </article>
+      
+      <article id='classes-galore'>
+        <style>
+          #classes-galore .build { margin-top: 40px; }
+          #classes-galore .large-font { margin: 70px 0px; }
+        </style>
+        <h3>Objects</h3>
+        <div class='build'>
+          <p>Ruby Robot has to know what type of Object it is holding to know what to do with it.</p>
+          <p class='large-font'>Ruby Robot knows that ...</p>
+          <p class='large-font'>The number <b>1</b> is an <b>Integer</b>.
+          <p class='large-font'>The word <b>"coding"</b> is a <b>String</b>.
+        </div>
+      </article>
+      
+      <article id='ruby-instructions'>
+        <style>
+          #ruby-instructions .large-font { margin: 150px 0px; }
+        </style>
+        <h3>
+          Ruby Robot's Book of Instructions
+        </h3>
+        <p class='large-font'>Ruby Robot has a book full of instructions.</p>
+        <p class='large-font'>Each page tells Ruby Robot what to do with each type of Object.</p>
+      </article>
+      
+      <article id='back-ruby-robot'>
+        <style>
+          #back-ruby-robot .large-font { margin: 80px 0 50px 0; }
+        </style>
+        <h3>
+          Back to Ruby Robot
+        </h3>
+        <p class='large-font'>When you ask Ruby Robot what <b>1 + 2</b> is:</p>
+        <p>It finds the instruction sheet for the class <b>INTEGER</b>.</p>
+        <p>Scans the instruction sheet for <b>+</b>.</p>
+        <p>Sees that when you ask for an <b>INTEGER + INTEGER</b>, you want it to add the two together.</p>
+      </article>
+      
+      <article>
+        <h3>
+          Playing with Integers
+        </h3>
+        <section class='build'>
+          <pre>> 99.next</pre>
+          <pre>=> 100</pre>
+          
+          <pre>> 99.odd?</pre>
+          <pre>=> true</pre>
+          
+          <pre>> 99.even?</pre>
+          <pre>=> false</pre>
+        </section>
+      </article>
+      
+      <article id='worksheet-fun'>
+        <style>
+          #worksheet-fun .large-font { margin-top: 175px; }
+        </style>
+        <h3>
+          More Fun With Integers
+        </h3>
+        <p class='large-font'>Find your <b>Integer</b> sheet, and try playing with each of the instructions.</p>
+      </article>
+      
+      <article>
+        <h3>
+          Playing with Strings
+        </h3>
+        <section class='build'>
+          <pre>> "girlscrackthecode".capitalize</pre>
+          <pre>=> "Girlscrackthecode"</pre>
+          
+          <pre>> "girlscrackthecode".upcase</pre>
+          <pre>=> "GIRLSCRACKTHECODE"</pre>
+          
+          <pre>> "girlscrackthecode".reverse</pre>
+          <pre>=> "edocehtkcarcslrig"</pre>
+        </section>
+      </article>
+      
+      <article id='worksheet-fun'>
+        <h3>
+          More Fun With Strings
+        </h3>
+        <p class='large-font'>Find your <b>String</b> sheet, and try playing with each of the instructions.</p>
+      </article>
+      
+      <article id='ruby-method'>
+        <style>
+          #ruby-method .large-font { margin: 60px 0px; }
+        </style>
+        <h3>
+          Methods
+        </h3>
+        <div class='build'>
+          <p class='large-font'><b>next</b>, <b>odd?</b>, and <b>even?</b> are all methods that you can call on an Integer.</p>
+          <p class='large-font'><b>capitalize</b>, <b>upcase</b>, and <b>reverse</b> are all methods that you can call on a String.</p>
+          <p class='large-font'>Methods are commands.</p>
+        </div>
+      </article>
+      
+      <article id='back-instructions'>
+        <style>
+          #back-instructions .large-font { margin: 80px 0 50px 0; }
+        </style>
+        <h3>
+          Back to Ruby Robot's Instruction Book
+        </h3>
+        <p class='large-font'>Each page in Ruby Robot's instruction book tells Ruby Robot what it can do with each type of Object.</p>
+        <p class='large-font'>The <b>things it can do</b> are the <b>methods</b>, and they're found on each page of the book.</p>
+      </article>
+      
+      <article id='lazy'>
+        <style>
+          #lazy .large-font { margin: 75px 0; }
+        </style>
+        <h3>
+          I'm lazy! I don't want to do all of this typing!
+        </h3>
+        <p class='large-font'>What if we could type in <b>"girlscrackthecode"</b> only once? We can!</p>
+        <section>
+          <pre>> gcc = "girlscrackthecode"</pre>
+          <pre>=> "girlscrackthecode"</pre></section>
+        <p class='large-font'><b>gcc</b> is called a variable. It's like a nickname for the Object.</p>
+      </article>
+      
+      <article id='back-ruby-robot'>
+        <style>
+          #back-ruby-robot .large-font { margin: 80px 0 50px 0; }
+        </style>
+        <h3>
+          Back to Ruby Robot
+        </h3>
+        <p class='large-font'>You gave Ruby Robot the string <b>"girlscrackthecode"</b>, and asked it to put a sticky note with <b>"gcc"</b> on that string.</p>
+        <p class='large-font'>Now, when you ask for <b>"gcc"</b>, Ruby Robot will know where to find your string, because it has labelled it.</p>
+      </article>
+      
+      <article>
+        <h3>
+          Variables Can (And Often Do!) Vary
+        </h3>
+        <p>A variable is called just that because it can change.</p>
+        <section class='build'>
+          <pre>> gcc = "learning to code with ruby robot"</pre><pre>=> "learning to code with ruby robot"</pre>
+          <div>gcc <img src='assets/images/arrow.png'> "learning to code with ruby robot"</div>
+          <p>Now let's ask for gcc.</p>
+          <pre>> gcc</pre><pre>=> "learning to code with ruby robot"</pre>
+        </section>
+      </article>
+      
+      <article>
+        <p>Let's try some more</p>
+        <section class='build'>
+          <pre>> gcc = 99</pre><pre>=> 99</pre>
+          <div>gcc <img src='assets/images/arrow.png'> 99</div>
+          <p>Let's ask for gcc once again.</p>
+          <pre>> gcc</pre><pre>=> 99</pre>
+        </section>
+      </article>
+      
+      <article>
+        <h3>The More the Merrier</h3>
+        <p>Let's introduce another variable.</p>
+        <section class='build'>
+          <pre>> copy_cat = gcc</pre><pre>=> 99</pre>
+          <div>gcc <img src='assets/images/arrow.png'> 99 <img src='assets/images/back-arrow.png'> copy_cat</div>
+        </section>
+      </article>
+      
+      <article>
+        <h3>Let's ask for each variable</h3>
+        <section class='build'>
+          <pre>> gcc</pre><pre>=> 99</pre>
+          <pre>> copy_cat</pre><pre>=> 99</pre>
+        </section>
+      </article>
+      
+      <article id='worksheet-fun'>
+        <h3>
+          More Fun With Variables
+        </h3>
+        <p class='large-font'>Find your <b>Variable</b> sheet, and try playing with each of the instructions.</p>
+      </article>
+      
+      <article id='variable-reset'>
+        <style>
+          #variable-reset .large-font { margin: 100px 0; }
+        </style>
+        <h3>Resetting the variable</h3>
+        <p class='large-font'>Now set gcc back to "girlscrackthecode"</p>
+        <section class='build'>
+          <pre>> gcc = "girlscrackthecode"</pre><pre>=> "girlscrackthecode"</pre>
+        </section>
+      </article>
+      
+      <article>
+        <h3>
+          Playing With Our Variable
+        </h3>
+        <p>You can use this variable like you would have used "girlscrackthecode" before.</p>
+        <section>
+          <pre>> gcc.capitalize</pre>
+          <pre>=> "Girlscrackthecode"</pre>
+          
+          <pre>> gcc.upcase</pre>
+          <pre>=> "GIRLSCRACKTHECODE"</pre>
+          
+          <pre>> gcc.reverse</pre>
+          <pre>=> "edocehtkcarcslrig"</pre>
+        </section>
+      </article>
+      
+      <article id='your-own'>
+        <style>
+          #your-own .large-font { margin-top: 75px; }
+        </style>
+        <h3>
+          Try Some of Your Own!
+        </h3>
+        <p class='large-font'>
+          Get creative, and try this with some of your own strings. Maybe your <b>name</b>, or <b>favourite food</b> or <b>sport</b>?
+        </p>
+        <p class='large-font'>
+          What happens if you use two methods, like <b>gcc.upcase.reverse</b>?
+        </p>
+      </article>
+      
+      <article id='recap-one'>
+        <style>
+          #recap-one .large-font { margin: 75px 0px; text-align: center; font-size: 80px; }
+        </style>
+        <h3>
+          Recap Slide
+        </h3>
+        <div class='build'>
+          <p class='large-font' style='color:#ff9700'>Integer</p>
+          <p class='large-font' style='color:#4671d5'>String</p>
+          <p class='large-font' style='color:#26972D'>Object</p>
+          <p class='large-font' style='color:#68237f'>Variable</p>
+        </div>
+      </article>
+      
+      <article>
+        <h3>
+          Let's Try One More
+        </h3>
+        <div class='build'>
+          <pre>> gcc.length</pre>
+          <pre>=> 17</pre>
+          <p class='large-font'>
+            You're probably starting to get a sense of how Twitter knows 
+            how many characters you've typed in.
+          </p>
+        </div>
+      </article>
+      
+      <article>
+        <h3>Doing like Twitter does.</h3>
+        <section class='build'>
+          <pre>> tweet = "I'm writing my first program with Ruby Robot at the <br>Intro to Ruby workshop!"</pre>
+          <pre>=> "I'm writing my first program with Ruby Robot at the <br>Intro to Ruby workshop!"</pre>
+          <pre>> tweet.length</pre>
+          <pre>=> 75</pre>
+          <p class='large-font'>Try writing some tweets of your own, and check if they're too long!</p>
+        </section>
+      </article>
+      
+      <article>
+        <h3>
+          Writing Our First Program
+        </h3>
+        <p>
+          Open TextMate, add the same code, and save it as twitter.rb in your ruby-girls folder. (Or, use assignments/twitter_1.rb)
+        </p>
+        <section>
+          <pre>tweet = "I'm writing my first program with Ruby Robot at the <br>Intro to Ruby workshop!"<br>tweet.length</pre>
+        </section>
+        <p>To run your program, type <b>quit</b> to exit from IRB, and then type:</p>
+        <section>
+          <pre>ruby twitter.rb</pre>
+        </section>
+        <div class='build'><p>Wait, what? Why didn't it show me the length of my string?</p></div>
+      </article>
+      
+      <article id='ruby-output'>
+        <style>
+          #ruby-output .large-font { margin: 50px 0px; }
+        </style>
+        <h3>
+          Outputting Text to the Screen
+        </h3>
+        <p class='large-font'>IRB is like back-and-forth text messaging.</p>
+        <p class='large-font'>A program has to be told when to output something.</p>
+        <p>Change your program: (Or, use assignments/twitter_2.rb)</p>
+        <section>
+          <pre>tweet = "I'm writing my first program with Ruby Robot at the<br>Intro to Ruby workshop!"<br>puts tweet.length</pre>
+        </section>
+      </article>
+      
+      <article id='puzzle-one'>
+        <style>
+          #puzzle-one .large-font { margin: 100px 0px; }
+        </style>
+        <h3>
+          Puzzle One - Variables
+        </h3>
+        <p class='large-font'>Open puzzle.rb in the assignments folder, and write down the output you expect to see if you were to run the program.</p>
+        <p class='large-font'>If you're not sure of something, remember that you can type <b>irb</b> again and try it out.</p>
+        <p>(Answers in assignments/puzzle_answer.txt, but don't look!)</p>
+      </article>
+      
+      <article id='real-twitter'>
+        <style>
+          #real-twitter .large-font { margin: 60px 0px; }
+        </style>
+        <h3>
+          Getting Input From the User
+        </h3>
+        <p>The real Twitter...</p>
+        <div class='build'>
+          <p class='large-font'>Asks you to type something.</p>
+          <p class='large-font'>Tells you how many characters you're working with.</p>
+          <p>So far, we've just been putting our tweet directly into the program.</p>
+        </div>
+      </article>
+      
+      <article>
+        <h3>
+          Asking for Input
+        </h3>
+        <p>The <b>puts</b> method is used for output, and the <b>gets</b> method is used for input. Try this:</p>
+        <p>The gets method warns Ruby that you're about to speak.</p>
+        <section class='build'>
+          <pre>> tweet = gets</pre>
+          <pre class='all-string'>I'm learning Ruby with Ruby Robot</pre><pre>=> "I'm learning Ruby with Ruby Robot\n"</pre>
+          <p>
+            Wait, we didn't type \n in our tweet. What is that?
+          </p>
+        </section>
+      </article>
+      
+      <article>
+        <h3>
+          Asking for Input
+        </h3>
+        <p>
+          The \n is there because you hit the enter button after you typed your tweet.
+          To get rid of it, do this:
+        </p>
+        <section class='build'>
+          <pre>> tweet = gets.chomp</pre>
+          <pre class='all-string'>I'm learning Ruby with Ruby Robot</pre>
+          <pre>=> "I'm learning Ruby with Ruby Robot"</pre>
+        </section>
+      </article>
+      
+      <article id='input-fun'>
+        <style>
+          #input-fun .large-font { margin: 70px 0; }
+        </style>
+        <h3>
+          Fun With Inputs
+        </h3>
+        <p class='large-font'>Let's try asking for input a few more times.</p>
+        <p class='large-font'>We'll run the program <b>assignments/input_1.rb</b> together.</p>
+        <p class='large-font'>Do you remember how to run a program?</p>
+        <pre>ruby assignments/input_1.rb</pre>
+      </article>
+      
+      <article id='input-madlib'>
+        <style>
+          #input-madlib .large-font { margin: 150px 0; }
+        </style>
+        <h3>
+          Inputs for Mad Libs
+        </h3>
+        <p class='large-font'>Now let's run <b>assignments/input_2.rb</b> and <b>assignments/input_3.rb</b> together.</p>
+        <p>Mad Libs examples are from http://www.itsamadlibsworld.com/</p>
+      </article>
+      
+      <article id='create-madlib'>
+        <style>
+          #create-madlib .large-font { margin: 150px 0; }
+        </style>
+        <h3>
+          Get Creative With Your Own Mad Lib!
+        </h3>
+        <p class='large-font'>Make a program called <b>mad_lib.rb</b> and create your very own Mad Lib.</p>
+      </article>
+      
+      <article id='ask-for-tweet'>
+        <style>
+          #ask-for-tweet .build { margin-top: 40px; }
+        </style>
+        <h3>
+          Back to your Twitter Program
+        </h3>
+        <p>Working with your buddy, change your Twitter program like this:</p>
+        <div class='build'>
+          <p>1. Ask (politely!) for a tweet from the user. - <b>puts</b></p>
+          <p>2. Save the user input with a sticky note with "<b>tweet</b>" on it, without \n. - <b>gets</b>, <b>chomp</b></p>
+          <p>3. Output the tweet the user gave. - <b>puts</b></p>
+          <p>4. Output the number of characters in the tweet. - <b>puts</b>, <b>chomp</b></p>
+          <p>5. Output how many <b>more</b> characters the user can add until they hit 140 characters. - <b>puts</b></p>
+          <p>(answers in assignments/twitter_3.rb)</p>
+        </div>
+      </article>
+      
+      <article id='conditional-twitter-1'>
+        <style>
+          #conditional-twitter-1 .large-font { margin-top: 100px; }
+        </style>
+        <h3>
+          Giving Output Based on Input
+        </h3>
+        <p>Twitter...</p>
+        <p class='large-font'>Lets you send your tweet if it is 140 characters or less.</p>
+        <p class='large-font'>Tells you that your tweet is too long if it is greater than 140 characters.</p>
+      </article>
+      
+      <article id='conditional-twitter-2'>
+        <style>
+          #conditional-twitter-2 .large-font { margin-top: 100px; }
+        </style>
+        <h3>Giving Output Based on Input</h3>
+        <p class='large-font'>
+          So far we know how to print the length of the user's tweet.
+        </p>
+        <p class='large-font'>
+          We don't know how to tell them <b>whether they can or cannot send their tweet, depending on its length</b>.
+        </p>
+      </article>
+      
+      <article id='conditional-logic'>
+        <style>
+          #conditional-logic .large-font { margin-top: 100px; }
+        </style>
+        <h3>Logic</h3>
+        <p class='large-font'>Programming is writing out sets of simple instructions for the computer to follow.</p>
+        <p class='large-font'>Let's break down out tweet logic into simple instructions.</p>
+      </article>
+      
+      <article id='conditional-instructions'>
+        <style>
+          #conditional-instructions .large-font { margin-top: 80px; }
+        </style>
+        <h3>
+          Logic
+        </h3>
+        <p>We want our program to ...</p>
+        <p class='large-font'><b>if</b> the tweet is <b>greater than 140 characters</b>, tell the user that they <b>cannot send their tweet</b></p>
+        <p class='large-font'><b>if</b> the tweet is <b>less than 140 characters</b>, tell the user that they can <b>send their tweet</b></p>
+      </article>
+      
+      <article id='greater-less-than'>
+        <style>
+          #greater-less-than .large-font { margin: 150px 0px; }
+          #greater-less-than .larger { font-size: 150px; margin-left: 300px; }
+        </style>
+        <h3>
+          Logic: Greater Than
+        </h3>
+        <p class='large-font'>The math symbol for <b>greater than</b> is:</p>
+        <p class='larger'><b>></b></p>
+      </article>
+      
+      <article>
+        <h3>
+          Logic: Greater Than
+        </h3>
+        <p>Try the code below in IRB:</p>
+        <section class='build'>
+          <pre>> tweet = "I'm writing my first program with Ruby Robot at the <br>Intro to Ruby workshop!"</pre>
+          <pre>=> "I'm writing my first program with Ruby Robot at the <br>Intro to Ruby workshop!"</pre>
+          <pre>> tweet.length > 140</pre><pre>=> false</pre>
+          <pre>> tweet.length > 10</pre><pre>=> true</pre>
+        </section>
+      </article>
+      
+      <article id='greater-less-than'>
+        <style>
+          #greater-less-than .large-font { margin: 150px 0px; }
+          #greater-less-than .larger { font-size: 150px; margin-left: 300px; }
+        </style>
+        <h3>
+          Logic: Less Than
+        </h3>
+        <p class='large-font'>The math symbol for <b>less than</b> is:</p>
+        <p class='larger'><b><</b></p>
+      </article>
+      
+      <article>
+        <h3>
+          Logic: Less Than
+        </h3>
+        <p>Try the code below in IRB:</p>
+        <section class='build'>
+          <pre>> tweet = "I'm writing my first program with Ruby Robot at the <br>Intro to Ruby workshop!"</pre>
+          <pre>=> "I'm writing my first program with Ruby Robot at the <br>Intro to Ruby workshop!"</pre>
+          <pre>> tweet.length < 140</pre><pre>=> true</pre>
+          <pre>> tweet.length < 10</pre><pre>=> false</pre>
+        </section>
+      </article>
+      
+      <article id='conditional-logic'>
+        <h3>
+          Logic in Our Simple Twitter
+        </h3>
+        <p class='large-font'>Let's simplify our if statements.</p>
+        <p class='large-font'>Remember that we're storing the user's tweet in the variable tweet.</p>
+      </article>
+      
+      <article id='conditional-simplify'>
+        <style>
+          #conditional-simplify p { margin: 50px 0px; }
+        </style>
+        <h3>
+          Logic in Our Simple Twitter
+        </h3>
+        <p>Original if statements:</p>
+        <p>if the tweet is greater than 140 characters, tell the user that they cannot send their tweet</p>
+        <p>if the tweet is less than 140 characters, tell the user that they can send their tweet</p>
+        <p />
+        <div class='build'>
+          <p>if tweet.length > 140 puts "Your tweet is too long!"</p>
+          <p>if tweet.length < 140 puts "Tweet your heart out!"</p>
+        </div>
+      </article>
+      
+      <article>
+        <h3>
+          Try it out!
+        </h3>
+        <p>
+          Replace the puts statements in your Twitter program with the code below.
+          (see assignments/twitter_4.rb if needed)
+        </p>
+        <section>
+          <pre>if tweet.length > 140<br>  puts "Your tweet is too long!"<br>end<br><br>if tweet.length < 140<br>  puts "Tweet your heart out!"<br>end</pre>
+        </section>
+      </article>
+      
+      <article id='dr-seuss'>
+        <style>
+          #dr-seuss .large-font { color: #006363; margin-top: 75px; }
+        </style>
+        <h3>
+          Try Your Program With Some Tweets
+        </h3>
+        <p>Try your new program with this tweet:</p>
+        <p class='large-font'>
+          You have brains in your head. You have feet in your shoes. You can steer yourself, any direction you choose.
+        </p>
+      </article>
+      
+      <article id='dr-seuss'>
+        <h3>
+          Try Your Program With Some Tweets
+        </h3>
+        <p>Try your new program with this tweet:</p>
+        <p class='large-font'>
+          You'll get mixed up, of course, as you already know. You'll get mixed up with many strange birds as you go. So be sure when you step. Step with care and great tact and remember that Life's a Great Balancing Act. Just never forget to be dexterous and deft. And never mix up your right foot with your left.
+        </p>
+      </article>
+      
+      <article id='dr-seuss'>
+        <h3>
+          Try Your Program With Some Tweets
+        </h3>
+        <p>Try your new program with this tweet:</p>
+        <p class='large-font'>
+          My alphabet starts with this letter called yuzz. It's the letter I use to spell yuzz-a-ma-tuzz.
+        </p>
+      </article>
+      
+      <article id='dr-seuss'>
+        <h3>
+          Try Your Program With Some Tweets
+        </h3>
+        <p>Try your new program with this tweet:</p>
+        <p class='large-font'>
+          Oh the places you'll go! There is fun to be done! The magical things you can do with that ball, will make you the winning-est winner of all.
+        </p>
+      </article>
+      
+      <article id='conditional-instructions'>
+        <h3>
+          Your First Bug!
+        </h3>
+        <p class='large-font'>What if your tweet is <b>exactly 140 characters</b>?</p>
+        <p class='large-font'>Our program skips this possibility.</p>
+      </article>
+      
+      <article id='greater-less-than'>
+        <style>
+          #greater-less-than .large-font { margin: 150px 0px; }
+          #greater-less-than .larger { font-size: 150px; margin-left: 300px; }
+        </style>
+        <h3>
+          Logic: Equality
+        </h3>
+        <p class='large-font'>The symbol for <b>equality</b> is:</p>
+        <p class='larger'><b>==</b></p>
+      </article>
+      
+      <article>
+        <h3>
+          Logic: Equality
+        </h3>
+        <section class='build'>
+          <pre>> tweet = "Oh the places you'll go! There is fun to be done!<br>The magical things you can do with that ball, will make you the<br>winning-est winner of all."</pre>
+          <pre>=> "Oh the places you'll go! There is fun to be done!<br>The magical things you can do with that ball, will make you the<br>winning-est winner of all."</pre>
+          <pre>> tweet.length</pre><pre>=> 140</pre>
+          <pre>> tweet.length == 140</pre><pre>=> true</pre>
+        </section>
+      </article>
+      
+      <article>
+        <h3>
+          Fix Your Bug!
+        </h3>
+        <p>Add this last if statement to the bottom of your file: (Or, use assignments/twitter_5.rb)</p>
+        <section>
+          <pre>if tweet.length == 140<br>  puts "Tweet your heart out!"<br>end</pre>
+        </section>
+        <p class='large-font'>
+          The == operator checks that the value of the objects on either side of it are equal. 
+        </p>
+      </article>
+      
+      <article id='dr-seuss'>
+        <h3>
+          Test Your Fix
+        </h3>
+        <p>Now try running your program with the tweet:</p>
+        <p class='large-font'>
+          Oh the places you'll go! There is fun to be done! The magical things you can do with that ball, will make you the winning-est winner of all.
+        </p>
+      </article>
+      
+      <article id='worksheet-fun'>
+        <h3>
+          More Fun With Logic
+        </h3>
+        <p class='large-font'>Find your <b>Logic</b> sheet, and try playing with each of the instructions.</p>
+      </article>
+      
+      <article>
+        <h3>Hello, Operator?</h3>
+        <table>
+          <tr><td>Operator</td><td>True</td><td>False</td></tr>
+          <tr>
+            <td>==</td>
+            <td>99 == 99</td>
+            <td>99 == 100</td>
+          </tr>
+          <tr>
+            <td>!=</td>
+            <td>99 != 100</td>
+            <td>99 != 99</td>
+          </tr>
+          <tr>
+            <td>></td>
+            <td>100 > 99</td>
+            <td>99 > 100</td>
+          </tr>
+          <tr>
+            <td><</td>
+            <td>99 < 100</td>
+            <td>100 < 99</td>
+          </tr>
+          <tr>
+            <td>>=</td>
+            <td>99 >= 99</td>
+            <td>99 >= 100</td>
+          </tr>
+          <tr>
+            <td><=</td>
+            <td>99 <= 99</td>
+            <td>100 <= 99</td>
+          </tr>
+        </table>
+      </article>
+      
+      <article id='new-operators'>
+        <style>
+          #new-operators .large-font { margin: 20px 0 80px 0; text-align: center; font-size: 125px; }
+          #new-operators p { font-size: 40px; }
+        </style>
+        <h3>
+          Many Ways To Compare Objects!
+        </h3>
+        <p>Which new operators did you find in your logic worksheet?</p>
+        <div class='build'>
+          <p class='large-font' style='color:#ff9700'>>=</p>
+          <p class='large-font' style='color:#4671d5'><=</p>
+          <p class='large-font' style='color:#26972D'>!=</p>
+        </div>
+      </article>
+      
+      <article id='new-operators-twitter'>
+        <style>
+          #new-operators-twitter .large-font { margin: 75px 0; }
+        </style>
+        <h3>
+          Improve Your Twitter Program!
+        </h3>
+        <p class='large-font'>Can you use these new operators to make your Twitter program <b>shorter</b>?</p>
+        <p class='large-font'>You can remove an <b>if</b> statement by using one of the new operators.</p>
+        <p>See assignments/twitter_6.rb for answers.</p>
+      </article>
+      
+      <article id='logic-action'>
+        <style>
+          #logic-action .large-font { margin: 75px 0; }
+        </style>
+        <h3>
+          Logic In Action!
+        </h3>
+        <p class='large-font'>Let's run the program <b>logic_1.rb</b> in the <b>assignments</b> folder together.</p>
+        <pre>ruby assignments/logic_1.rb</pre>
+      </article>
+      
+      <article id='logic-on-your-own'>
+        <style>
+          #logic-on-your-own .build { margin-top: 40px; }
+        </style>
+        <h3>
+          Your Own Logic Program
+        </h3>
+        <p>We're going to make our own program using logic.</p>
+        <p>Our program will ...</p>
+        <div class='build'>
+          <p>1. Ask which month you're born in. - <b>puts</b></p>
+          <p>2. Save the user input with a sticky note with "<b>birthday</b>" on it, without \n. - <b>gets</b>, <b>chomp</b></p>
+          <p>3. Output something different for each possible month. - <b>if</b>, <b>puts</b>, <b>==</b></p>
+          <p>(answers in assignments/logic_2.rb, but don't look!)</p>
+        </div>
+      </article>
+      
+      <article id='thank-you'>
+        <style>
+          #thank-you .large-font { text-align: center; margin: 60px 0; }
+          #thank-you .thank-you { font-size: 50px; }
+        </style>
+        <h3>
+          Thank You!
+        </h3>
+        <p class='large-font'>A big thank you to the organizers and mentors for their effort and dedication.</p>
+        <p class='large-font'>Another big thank you to Ladies Learning Code for inspiring the content for this workshop.</p>
+        <p class='large-font thank-you' style='color:#006363'>The biggest thank you to all of you for spending the day learning to code!</p>
+      </article>
+    </section>
+
+  </body>
+</html>
